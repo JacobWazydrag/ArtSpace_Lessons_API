@@ -15,3 +15,15 @@ student1 = Student.create(
     profile_photo: "fakeurl",
     password_digest: "asdfasdf1234"
 )
+artist1 = Artist.create(
+    username: "jwaz", 
+    first_name: "Jacob", 
+    last_name: "Wazydrag", 
+    email: "jgw.jakegeorge@gmail.com", 
+    bio: "Bio", 
+    phone_number: "12343143", 
+    profile_photo: "fakeurl",
+    instagram_url: "fakeurl",
+    facebook_url: "fakeurl",
+    password_digest: "asdfasdf1234"
+)

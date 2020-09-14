@@ -1,7 +1,7 @@
 class StudentsController < ApplicationController
 
     def secret 
-        ENV["SECRET"]
+        ENV["HS256"]
     end
 
     def index
